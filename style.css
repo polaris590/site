@@ -1,0 +1,78 @@
+.comment {
+    background-color: #c52c2c;
+    width: 400px;
+    padding: 40px;
+}
+.evaluation {
+    background-color: rgb(74, 34, 203);
+    width: 50px;
+    padding: 40px;
+}
+.picture{
+    width: 500px;
+    height: 300px;
+}
+.logo{width: 50px;}
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_list{
+    display: flex;
+}
+.header_item{
+    margin-right: 20px;
+}
+.hero_img{
+    width: 500px;
+    height: 300px;
+}
+.white{
+    width: 400px;
+    height: 30px;
+    background-color: aliceblue;
+    border: 2px solid;
+}
+.blue{
+    width: 390px ;
+    height: 30px;
+    background-color: rgb(176, 193, 252);
+}
+.crazy{
+    width: 500px;
+    height: 300px;
+    box-shadow: -100px -9px 63px -8px rgba(66, 68, 90, 1);
+}
+.content{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.osd{
+    width: 720px; height: 405px; border: 25px solid black; margin: 0 auto;
+}
+.video{
+    margin: 0 auto;
+    max-width: 800px;
+}
+.container{
+     margin: 0 auto;
+    max-width: 800px;
+}
+.foto img
+{
+    width: 300px;
+    margin: 20px;
+    transition: 2s;
+}
+    img:hover{
+        transform: scale(1.2);
+    }
+.foto{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer{
+    font-size: 40px;
+    text-align: center;
+}
